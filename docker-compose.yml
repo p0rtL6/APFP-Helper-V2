@@ -1,7 +1,7 @@
-version: '3.7'
+version: "3.7"
 services:
-    blackcube:
-        container_name: blackcube
+    apfphelper:
+        container_name: apfphelper
         restart: unless-stopped
         environment:
             - NODE_ENV=production
@@ -9,4 +9,4 @@ services:
             - guildId=
             - clientId=
             - mongoIp=
-        image: p0rtl/blackcube
+        image: p0rtl/apfphelper

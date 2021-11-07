@@ -27,4 +27,4 @@ RUN rm -rf /src/node_modules && cp -a /tmp/node_modules /src/
 WORKDIR /src
 
 # Run the built application
-CMD npx pm2-runtime start ./src/BlackCube.js
+CMD npx pm2-runtime start ./src/APFPHelper.js
